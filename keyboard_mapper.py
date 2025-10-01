@@ -49,10 +49,13 @@ EXTRA_FA_TO_EN = {
 }
 FA_TO_EN.update(EXTRA_FA_TO_EN)
 
-import re
+
+def clean(s: str) -> str:
+    s.lower().strip()
+    return s
 
 
-def inverter_EN_TO_FA(s):
+def map_en_to_fa(s: str) -> str:
     """
     Changing Gibberish English words to persian
     """
@@ -65,7 +68,7 @@ def inverter_EN_TO_FA(s):
     return result
 
 
-def inverter_FA_TO_EN(s):
+def map_fa_to_en(s: str) -> str:
     """
     Changing Gibberish persian words to English
     """
@@ -80,10 +83,11 @@ def inverter_FA_TO_EN(s):
 
 if __name__ == "__main__":
     s = "Amir"
-
-    result = inverter_EN_TO_FA(s.lower())
+    clean(s)
+    result = map_en_to_fa(s)
     print(result)
 
     s1 = "حاح"  # php
-    result = inverter_FA_TO_EN(s1.lower())
     print(result)
+
+    result = map_fa_to_en(s1)
