@@ -1,9 +1,7 @@
 # my_big_problem
-its  a **draft documentation** 
----
 
 # Keyboard Layout Auto-Corrector
-
+ My big problem was solved with a little solution. It would be better to work on your typing skills, my friend.:)
 ## Overview
 
 The **Keyboard Layout Auto-Corrector** is a tool designed to fix the common problem of typing with the wrong keyboard layout. For example, when you intend to type in English but your keyboard is set to Persian (or vice versa), the result is unreadable “gibberish” text. This program detects such mistakes and automatically converts them into the intended language.
