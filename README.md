@@ -1,6 +1,4 @@
 # my_big_problem
-its  a **draft documentation** 
----
 
 # Keyboard Layout Auto-Corrector
 
