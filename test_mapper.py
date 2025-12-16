@@ -1,4 +1,3 @@
-import pytest
 from keyboard_mapper import map_en_to_fa ,map_fa_to_en
 
 

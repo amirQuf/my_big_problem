@@ -80,14 +80,3 @@ def map_fa_to_en(s: str) -> str:
             result += " "
     return result
 
-
-if __name__ == "__main__":
-    s = "Amir"
-    clean(s)
-    result = map_en_to_fa(s)
-    print(result)
-
-    s1 = "حاح"  # php
-    print(result)
-
-    result = map_fa_to_en(s1)
